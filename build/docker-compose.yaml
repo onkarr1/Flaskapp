@@ -5,7 +5,7 @@ services:
     image: nasrahomar/flaskapp:latest 
     build:
       context: .
-      dockerfile: build/Dockerfile
+      dockerfile: .
     ports:
       - "5000:5000"
     restart: always
