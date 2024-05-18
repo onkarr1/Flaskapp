@@ -18,3 +18,4 @@ docker run --rm -it -p 5000:5000 ghcr.io/benc-uk/python-demoapp:$VER
 EOM
 
 gh release create $VER --title "Release v$VER" -n "$NOTES"
+#q
